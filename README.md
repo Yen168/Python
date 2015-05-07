@@ -1,13 +1,13 @@
 # Python
 code for work
-圖檔找尋
+##圖檔找尋
 
 Search.py + searchlist.txt
 
 自動搜尋並備份搜尋圖片結果,同時回報結果和模糊搜尋功能(for color)
 
 
-目錄製作
+##目錄製作
 
 catalog.py
 
@@ -25,7 +25,7 @@ pdf_merge.py
 *需安裝pyPdf-1.13.win32.exe與CuteWriter.exe
 
 
-目錄圖製作
+##目錄圖製作
 
 resizeJPG.py
 
@@ -39,13 +39,13 @@ resizeJPGwName.py
 *需安裝Pillow-2.6.1.win32-py2.7.exe與PIL-1.1.7.win32-py2.7.exe
 
 
-檔名更改
+##檔名更改
 
 rename_Quick_cata.py
 
 將同一資料夾內圖檔檔名自動改名僅有產品型號
 
-圖檔找尋
+##圖檔找尋
 
 1. Search.py 將自動搜尋 searchlist.txt 裡的產品圖片. 
 在找尋之前會詢問是否需要針對color 的fuzzy search, 請輸入(Y/N)選擇. 
@@ -56,7 +56,7 @@ rename_Quick_cata.py
 在每次執行新的搜尋前,請先清空result資料夾以確保結果正確
 
 
-目錄製作
+##目錄製作
 
 1. 安裝pyPdf-1.13.win32.exe與CuteWriter.exe以確保能夠合併與列印PDF檔案
 
