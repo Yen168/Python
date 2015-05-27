@@ -25,7 +25,7 @@ count = 0
 def catalogHtml(tr,td):
     #count = 0
     global count
-    newhtml.write('''<h1 align = "center">A&G International Trade Inc.</h1><br><br><table>''')
+    newhtml.write('''<h1 align = "center">Company</h1><br><br><table>''')
     for r in range(tr):
         newhtml.write('''<tr>''')
         for d in range(td):
@@ -38,7 +38,7 @@ def catalogHtml(tr,td):
             
         newhtml.write('''</tr>''')
 
-    newhtml.write('''</table><br><h2 align = "center">TEL: (212)481-3952 | AGIntl2000@yahoo.com | FAX: (212)481-5407</h2><br><br><br><br></body></html>''')
+    newhtml.write('''</table><br><h2 align = "center">TEL: |  | FAX: </h2><br><br><br><br></body></html>''')
 
     if listNum > count:
         catalogHtml(tr,td)
